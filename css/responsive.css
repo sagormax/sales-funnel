@@ -14,6 +14,13 @@
 	.mail_content_body p {
 	    font-size: 16px;
 	}
+	.info_form_title h2 {
+	    font-size: 25px;
+	    line-height: 24px;
+	}
+	.info_form_body label {
+	    font-size: 13px;
+	}
 }
 @media screen and (max-width: 991px) {
 	.customize_popup{
@@ -35,7 +42,35 @@
 	.media-left h6 {
 	    font-size: 11px;
 	}
-	
+	.page2_header_information h1 {
+	    font-size: 30px;
+	}
+	.page2_header_information h2 {
+	    font-size: 19px;
+	    line-height: 20px;
+	}
+	.building_finish_title h2 {
+	    font-size: 30px;
+	}
+	.strong_color label {
+	    font-size: 14px;
+	}
+	.main_project_section label {
+	    font-size: 14px;
+	}
+	.insert_project_button button {
+	    font-size: 18px;
+	}
+	.insert_project_button {
+	    margin-top: 30px;
+	}
+	.info_form_body label {
+	    font-size: 15px;
+	}
+	.info_form_title h1 {
+	    font-size: 45px;
+	    line-height: 40px;
+	}
 }
 @media screen and (max-width: 768px) {}
 @media screen and (max-width: 767px) {
@@ -63,6 +98,12 @@
 	.footer_image {
 	    margin-bottom: 20px;
 	}
+	.common_button {
+	    margin-bottom: 30px;
+	}
+	.security_button{
+		margin-bottom: 0px;
+	}
 		
 }
 @media screen and (max-width: 640px) {
@@ -85,6 +126,24 @@
 	}
 	.customize_popup {
 	    margin: 10px 0px 0px 60px;
+	}
+	.building_finish_title h2 {
+	    font-size: 25px;
+	}
+	.all_building {
+	    margin: 30px 0px;
+	}
+	.main_project_section {
+	    margin: 30px 0;
+	}
+	.info_form_title h1 {
+	    font-size: 35px;
+	    line-height: 30px;
+	}
+	.info_form_title h2 {
+	    font-size: 22px;
+	    line-height: 21px;
+	    font-weight: 500;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -115,6 +174,26 @@
 	.modal_title {
 	    margin-top: 100px;
 	}
+	.page2_header_information h1 {
+	    font-size: 25px;
+	}
+	.page2_header_information h2 {
+	    font-size: 15px;
+	}
+	.info_form_title h1 {
+	    font-size: 26px;
+	    line-height: 26px;
+	}
+	.info_form_body p {
+	    text-align: unset;
+	    font-size: 22px;
+	}
+	.info_form_body input {
+	    margin-bottom: 5px;
+	}
+	.info_form_body {
+	    padding: 30px 30px;
+	}
 }
 @media screen and (max-width: 360px) {
 	.header_content h1 {
@@ -136,7 +215,35 @@
 	    font-size: 14px;
 	    line-height: 20px;
 	}
-	
+	.page2_header_information h1 {
+	    font-size: 20px;
+	}
+	.building_finish_title h2 {
+	    font-size: 20px;
+	}
+	.buildig_finish_content ul li {
+	    font-size: 14px;
+	}
+	.energy_content ul li {
+	    font-size: 14px;
+	}
+	.security_content ul li {
+	    font-size: 14px;
+	}
+	.main_project_section {
+	    padding: 30px 20px;
+	}
+	.info_form_title h2 {
+	    font-size: 17px;
+	}
+	.info_form_body p {
+	    font-size: 19px;
+	    margin-bottom: 15px;
+	}
+	.info_form_button button {
+	    padding: 10px 13px;
+	    font-size: 16px;
+	}
 }
 @media screen and (max-width: 320px) {
 	.header_content input {
@@ -150,5 +257,38 @@
 	}
 	.customize_popup {
 	    margin: 10px 0px 0px 35px;
+	}
+	.page2_header_information h1 {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+	.page2_header_information h2 {
+	    font-size: 13px;
+	    line-height: 17px;
+	}
+	.page2_header_information {
+	    margin: 25px 0px;
+	}
+	.building_finish_title h2 {
+	    font-size: 18px;
+	}
+	.buildig_finish_content ul li {
+	    font-size: 13px;
+	}
+	.energy_content ul li {
+	    font-size: 13px;
+	}
+	.security_content ul li {
+	    font-size: 13px;
+	}
+	.info_form_title h1 {
+	    font-size: 23px;
+	}
+	.info_form_title h2 {
+	    font-size: 14px;
+	}
+	.info_form_button button {
+	    padding: 10px 11px;
+	    font-size: 14px;
 	}
 }

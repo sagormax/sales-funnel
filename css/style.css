@@ -419,9 +419,287 @@ a:hover{
     border-bottom: 0px;
     padding: 10px 20px 0px 0px;
 }
+
+/* Modal section style end*/
+/*================================page 2 style==========================*/
+
+/*page2 header style*/
+
+.page2_header{
+    background: #FFBB02;
+}
+.page2_header_information{
+    margin: 40px 0px;
+    text-align: center;
+}
+.page2_header_information h1{
+    margin: 0px 0 15px 0;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+    text-shadow: 0 2px 2px 0 rgba(0,0,0,.06),0 10px 20px 0 rgba(0,10,18,.1);
+}
+.page2_header_information h2{
+    margin: 0px;
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+/*page2 header style end*/
+
+/* Building finish section style*/
+
+.building_finish_section{
+    background: #ECF3FD;
+}
+.all_building{
+    margin: 60px 0px;
+}
+.building_finish_title{
+    margin-bottom: 40px;
+}
+.building_finish_title h2{
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: normal;
+}
+.building_finish_title h2 span{
+    color: #FFBB02;
+}
+.buildig_finish_content{}
+.buildig_finish_content ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+.buildig_finish_content ul li{
+    list-style-type: none;
+    color: #727272;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.buildig_finish_content ul li i{
+    color: #ffbb02;
+    margin-right: 7px;
+    font-size: 20px;
+}
+.building_finish_images{}
+.building_finish_images img{
+    width: 100%;
+}
 .{}
+
+/* Building finish section style end*/
+
+/*security section style*/
+
+.security_section{
+    background: #fff;
+}
+.energy_content{}
+.energy_content ul{
+    margin: 0;
+    padding: 0;
+}
+.energy_content ul li{
+    list-style-type: none;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.energy_content li i{
+    color: #000;
+    margin-right: 7px;
+    font-size: 20px;
+}
 .{}
+
+/*security section style end*/
+
+/*energy section style*/
+
+.energy_section{
+    background: #94ABD5;
+}
+.security_content{}
+.security_content ul{
+    margin: 0;
+    padding: 0;
+}
+.security_content ul li{
+    list-style-type: none;
+    color: #727272;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.security_content ul li i{
+    color: #ffbb02;
+    margin-right: 7px;
+    font-size: 20px;
+}
+.common_button{
+    margin-top: 30px;
+}
+.common_button a{
+    background: #ffbb02;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/*energy section style end*/
+
+/*insert porject section*/
+
+.insert_project_section{
+    background: #D4EAF1;
+}
+.main_project_section{
+    margin: 60px 0;
+    background: #EBF8FB;
+    padding: 60px 30px;
+    border-radius: 5px;
+}
+
+.main_project_section label{
+    color:#727272;
+    font-size: 16px;
+}
+.main_project_section input{
+    background: #FFFFFF;
+}
+.main_project_section textarea{}
+.{}
+.insert_project_button{
+    text-align: center;
+    margin-top: 50px;
+}
+.insert_project_button button{    
+    padding: 10px 25px;
+    border-radius: 4px;
+    background-color: #FFBB02;
+    font-size: 22px;
+    line-height: 22px;
+    border: 2px solid #FFBB02;
+    color: #fff;
+}
+.strong_color label{
+    font-size: 18px;
+}
+
+/*insert porject section end*/
+
+/*================================page 2 style end==========================*/
+
+/*================================page 3 style ==========================*/
+
+.infor_form_header{
+    background: #ffbb02;
+}
+.info_form_title{
+    padding: 20px 20px;
+}
+.info_form_title h1{
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-shadow: 0 2px 2px 0 rgba(0,0,0,.06),0 10px 20px 0 rgba(0,10,18,.1);
+}
+.info_form_title h2{
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-shadow: 0 2px 2px 0 rgba(0,0,0,.06),0 10px 20px 0 rgba(0,10,18,.1);
+}
+
+.info_form_section{    
+    background: #D4EAF1;
+}
+.main_info_form{}
+
+.info_form_body{
+    background: #EBF8FB;
+    padding: 50px 30px;
+    margin: 50px 0px;
+}
+.info_form_body p{
+    text-align: center;
+    color: #FFBB02;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.info_form_body label{
+    font-size: 17px;
+    margin-top: 5px;
+}
+.info_form_body input{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.info_form_body textarea{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.info_group_div{
+    margin-bottom: 20px;
+    display: block;
+}
+.info_form_button{
+    text-align: center;
+    margin-top: 30px;
+}
+.info_form_button button{
+    background: #ffbb02;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 22px;
+    border-radius: 5px;
+    border:1px solid #ffbb02;
+}
+.label_text{
+    margin-bottom: 20px;
+}
+/*================================page 3 style end==========================*/
+/*==============================certificate page style===================== */
+
+.certificate_section{
+    background: #D4EAF1;
+}
+.main_certificate{
+    margin: 60px 0px;
+    background: url(../images/certificate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.certificate_all_content{
+    background: rgba(255,255,255,.5);
+}
+.certificate_title{
+    text-align: center;
+    padding-top: 180px;
+}
+.certificate_title h1{}
+.certificate_title h3{}
+.certificate_title h2{}
+.certificate_body{}
+.certificate_body p{}
+.certificate_footer{}
+.certificate_footer_content{}
+.certificate_footer_content h2{}
+.certificate_footer_content p{}
 .{}
 .{}
 
-/* Modal section style end*/
+/*==========================certificate page style end ===================== */
