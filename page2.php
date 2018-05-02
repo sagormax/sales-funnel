@@ -1,22 +1,15 @@
-<!doctype html>
-<html class="no-js" lang="">
+<?php
+require "init.php";
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sales Funnel</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
+if( !isset($_SESSION['new_sess']) ){
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
 
-<body>
+include "inc/header.php";
+?>
+
     <header class="page2_header">
         <div class="container">
             <div class="page2_header_information">
@@ -136,7 +129,7 @@
     <section class="insert_project_section" id="common_project_section">
         <div class="container">
             <div class="main_project_section">
-                <form action="" method="post">
+                <form action="page3.php" method="post">
                     <div class="form-group">
                         <label for="email">What is your budget for this project ?</label>
                         <input type="text" class="form-control" name="p_budge" id="p_budge" required>
@@ -145,8 +138,8 @@
                         <label for="radio">Do you have any quotations made from other companies ?</label>
                         <div>
                             <label>                       
-                                <input type="radio" class="radio_click" name="radio_button" id="quation1" value="1">Yes 
-                                <input type="radio" class="radio_click" name="radio_button" id="quation2" value="2">No
+                                <input type="radio" class="radio_click" name="have_quote_others_company" id="quation1" value="1">Yes 
+                                <input type="radio" class="radio_click" name="have_quote_others_company" id="quation2" value="0">No
                             </label>
                         </div>
                         <input type="text" class="form-control radio_input" name="" style="display: none;">                      
@@ -160,7 +153,7 @@
                     </div>
                     <div class="form-group">
                         <label for="">YOU NEED A SPECIFIC PROJECT DONE? TELL US ABOUT IT </label>
-                        <textarea class="form-control" rows="5"></textarea>
+                        <textarea class="form-control" name="about_project" rows="5"></textarea>
                     </div>   
                     <div class="insert_project_button">
                         <button type="submit">LETS CONTINUE</button>
@@ -169,11 +162,6 @@
             </div>
         </div>
     </section>    
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>    
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+<?php
+    include "inc/footer.php";
+?>

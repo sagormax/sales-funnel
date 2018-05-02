@@ -23,4 +23,18 @@ class Session {
     {
         return $_SESSION['new_sess'] = time();
     }
+
+    public static function sess_create(Array $attr)
+    {
+        foreach( $attr as $key => $at ){
+            $_SESSION[$key] = $at;
+        }
+        return;
+    }
+
+    public static function sess_get_fullname()
+    {
+        return isset($_SESSION['f_name']) ? $_SESSION['f_name']." ".$_SESSION['l_name'] : "";
+    }
+
 }
