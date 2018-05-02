@@ -46,10 +46,6 @@
     border: 2px solid #FFBB02;
     color: #fff;
 }
-.{}
-.{}
-.{}
-.{}
 
 /*header section style end*/
 
@@ -121,9 +117,7 @@
 a:hover{
     text-decoration: none;
 }
-.{}
-.{}
-.{}
+
 
 /* Mail section style end*/
 /* Services section style */
@@ -177,8 +171,7 @@ a:hover{
 .service_content_image img{
     width: 100%;
 }
-.{}
-.{}
+
 /* Services section style End */
 /* Testimonial section style */
 .testimonial_section{
@@ -298,11 +291,6 @@ a:hover{
 .satisfied_rgba{
 	background: rgba(0,0,0,0.8);
 }
-.{}
-.{}
-.{}
-.{}
-
 /* Client Satisfaction section style end*/
 /* Footer section style */
 .footer_section{
@@ -356,12 +344,6 @@ a:hover{
 .footer_bottom_text p{
 	margin: 0px;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
 /* Footer section style End */
 /* Modal section style*/
 
@@ -572,7 +554,7 @@ a:hover{
     background: #FFFFFF;
 }
 .main_project_section textarea{}
-.{}
+
 .insert_project_button{
     text-align: center;
     margin-top: 50px;
@@ -677,7 +659,6 @@ a:hover{
 .main_certificate{
     margin: 60px 0px;
     background: url(../images/certificate.png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -687,17 +668,55 @@ a:hover{
 .certificate_title{
     text-align: center;
     padding-top: 180px;
+    margin-bottom: 20px;
 }
-.certificate_title h1{}
-.certificate_title h3{}
-.certificate_title h2{}
-.certificate_body{}
-.certificate_body p{}
-.certificate_footer{}
+.certificate_title h1{
+    margin: 5px 5px 10px 0px;
+}
+.certificate_title h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.certificate_title h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.certificate_body{
+    text-align: center;
+    padding: 0px 120px;
+}
+.certificate_body p{
+    font-style: italic;
+    line-height: 22px;
+}
+.certificate_footer{
+        padding: 0px 130px 180px 130px;
+}
+.certificate_footer_image{}
+.certificate_footer_image img{
+    width: 24%;
+}
 .certificate_footer_content{}
-.certificate_footer_content h2{}
+.certificate_footer_content h2{
+    margin-top: 0px;
+    font-size: 20px;
+}
 .certificate_footer_content p{}
-.{}
-.{}
+.certificate_approve{
+}
+.certificate_footer_content_address{
+   
+}
+.certificate_footer_content_address p{}
+.certificate_footer_content_address ul{
+    margin: 0px;
+    padding: 0px;
+}
+.certificate_footer_content_address ul li{
+    list-style-type: none;
+    font-size: 15px;
+
+}
+
 
 /*==========================certificate page style end ===================== */
