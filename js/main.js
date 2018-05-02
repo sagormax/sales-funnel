@@ -6,7 +6,14 @@
     jQuery(document).ready(function($){	
 
       $('#myModal').modal('show');
-
+      /*--------------------------
+      Smooth scrolling
+    ---------------------------*/
+      $('a.scrollto').on('click', function(e){            
+          var target = this.hash;    
+          e.preventDefault();
+        $('body').scrollTo(target, 900, {offset: -60, 'axis':'y'});        
+      });
    
     /*======================================/
               slick slider js
