@@ -1,0 +1,154 @@
+@media screen and (max-width: 1024px) {
+	.header_content {
+	    margin-top: 60px;
+	}
+	.services_content h3 {
+	    font-size: 16px;
+	}
+	.process_content h2 {
+	    font-size: 22px;
+	}
+	.mail_content_title h2 {
+	    font-size: 36px;
+	}
+	.mail_content_body p {
+	    font-size: 16px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.customize_popup{
+	    width: 80%;
+	    margin: 10px 0px 0px 40px;
+	}
+	.modal_form input {
+	    margin-bottom: 20px;
+	}
+	.modal_form button {
+	    width: 200px;
+	}
+	.service_content i {
+	    margin-right: 5px;
+	    font-size: 20px;
+	    width: 40px;
+	    padding: 7px;
+	}
+	.media-left h6 {
+	    font-size: 11px;
+	}
+	
+}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 767px) {
+	.footer_social_icon{
+		margin-bottom: 30px;
+	}
+	.footer_content h2 {
+		border-bottom: 0px;
+	}
+	.footer_social_icon h2 {
+	    border-bottom: 0px; 
+	}
+	.modal_info{
+		padding-left: 30px;
+	}
+	.customize_popup{
+	    margin: 10px 0px 0px 40px;
+	}
+	.process_content h2 {
+	    margin-bottom: 25px;
+	}
+	.media-left h6 {
+	    font-size: 16px;
+	}
+	.footer_image {
+	    margin-bottom: 20px;
+	}
+		
+}
+@media screen and (max-width: 640px) {
+	.mail_content_title h2 {
+	    font-size: 32px;
+	}
+	.main_service {
+	    margin: 60px 0px 30px 0px;
+	}
+	.responsive .slick-next, .slick-prev {	    
+	    display: none !important;
+	}
+	.header_contetn_info {
+	    width: 100%;
+	    padding: 110px 0px;
+	}
+	.header_content h1 {
+	    font-size: 23px;
+	    line-height: 33px;
+	}
+	.customize_popup {
+	    margin: 10px 0px 0px 60px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.header_contetn_info {
+	    padding: 70px 0px;
+	}
+	.header_content input {
+	    margin-bottom: 20px;
+	}
+	.header_content button {
+	    width: 300px;
+	}
+	.mail_content {
+	    margin: 46px 0px;
+	}
+	.main_testimonial {
+	    margin: 40px 0 20px 0px;
+	}
+	.modal_form {
+	    padding-right: 15px;
+	}
+	.modal_form input {
+	    width: 100% !important;
+	}
+	.modal_form button {
+	    width: 100%;
+	}
+	.modal_title {
+	    margin-top: 100px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.header_content h1 {
+	    font-size: 25px;
+	}
+	.customize_popup {
+	    margin: 10px 0px 0px 45px;
+	}
+	.modal_title h2 {
+	    font-size: 17px;
+	}
+	.modal_title p {
+	    font-size: 13px;
+	}
+	.mail_content_title h2 {
+	    font-size: 22px;
+	}
+	.mail_content_body p {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+	
+}
+@media screen and (max-width: 320px) {
+	.header_content input {
+	    width: 90%;
+	}
+	.header_content button {
+	    width: 90%;
+	}
+	.mail_content_title h2 {
+	    font-size: 26px;
+	}
+	.customize_popup {
+	    margin: 10px 0px 0px 35px;
+	}
+}
