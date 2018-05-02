@@ -1,30 +1,32 @@
-<!doctype html>
-<html class="no-js" lang="">
+<?php
+require "init.php";
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sales Funnel</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
+if( !isset($_SESSION['new_sess']) ){
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
 
-<body>
+if( isset($_POST['f_name']) ){
+    App\Session::sess_create($_POST);
+    $_SESSION['_can'] = time().date('/m/Y');
+}
+else{
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
+
+include "inc/header.php";
+?>
     <section class="certificate_section">
         <div class="container">
             <div class="main_certificate">
                 <div class="certificate_all_content">
                     <div class="certificate_title">
                         <h1>CERTIFICATE OF CREDIT</h1>
-                        <h3>This is to certify That</h3>
-                        <h2>Dolar Sharma</h2>
+                        <h3>This is to certify that</h3>
+                        <h2><?php echo strtoupper(\App\Session::sess_get_fullname()); ?></h2>
                     </div>
                     <div class="certificate_body">
                         <p>Has been issued $1000.00 USD to be used towards up coming projects with Yehans International Company Limited.<br><br> In accordance with our company Policies, the credit would be applied towards the final estimate price of the project. The Commencement of the project validates the certificate of credit.<br><br> The certificate of Credit is Valid with the First month of Issue. An extension would be granted on a case to case situation. The credit certificate is Valid for any project of $10,000 USD or more.<br><br> Any additional discounts provided by Yehans International due to promotional sales can be approved or declined by the sales Manager responsible for the project.</p>
@@ -34,13 +36,13 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="certificate_footer_content">
                                     <h2>Issue Date</h2>
-                                    <p>05-02-2018</p>
+                                    <p><?php echo date('d-m-Y'); ?></p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="certificate_footer_content">
                                     <h2>Certification Approval Number</h2>
-                                    <p>FB 0975890087/04/2018</p>
+                                    <p><?php echo $_SESSION['_can']; ?></p>
                                 </div>
                             </div>
                         </div><div class="row">
@@ -67,10 +69,6 @@
             </div>
         </div>
     </section>
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-</body>
-
-</html>
+<?php
+    include "inc/footer.php";
+?>

@@ -11,7 +11,7 @@ include "inc/header.php";
                 <div class="header_contetn_info text-center">
                     <h1>Enter Your email to collect $1000.00 FREE Certificate of credit towards your next building project.</h1>
                     <form action="" method="post">
-                        <input type="text" name="url" placeholder="Your Email Address">
+                        <input type="email" name="url" placeholder="Your Email Address" required>
                         <button type="submit">START NOW</button>
                     </form>
                 </div>
@@ -24,10 +24,10 @@ include "inc/header.php";
         <div class="process_content">
             <div class="row">
                 <div class="col-md-8 col-sm-8">
-                    <h2> We Are Ready to Start Your Project, Contact Now!</h2>
+                    <h2>Are you Ready for your Next Project?</h2>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <a href="#" target="_blank">Get a Certificate</a>
+                    <a href="#" target="_blank">Contact Us now</a>
                 </div>
             </div>          
         </div>
@@ -92,14 +92,6 @@ include "inc/header.php";
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="service_content">
-                                        <i class="fa fa-umbrella"> </i>
-                                        <div class="media-left">
-                                          <h6>24/7 EMERGENCY</h6>              
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-6">
@@ -150,10 +142,16 @@ include "inc/header.php";
                                         <img src="images/client/testimonial-1.jpg" alt="">
                                     </div>
                                     <div class="testimonial_details">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quia iure obcaecati alias error magnam dolorum cumque qui, deserunt nobis!</p>
-                                        <h4>Simon M.</h4>
-                                        <h5>CEO</h5>
-                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                        <p>
+                                        Yehans International , is a renowned expert in the manufacturing and installation of doors and windows, 
+                                        garage doors and other new product engineering like the Building management solutions, 
+                                        secuirty systems, and Energy Savings and Audit solutions. They have a unique and
+                                        enviable ability to immediately connect with clients ideas, and
+                                        turn those ideas into realities. The firm is especially skilled at 
+                                        developing products that are economic to manufacture, yet offer high value.
+                                        </p>
+                                        <h4>Dr. KK Sarpong</h4>
+                                        <h5>Ghana National Petroleum</h5>
                                     </div>
                                 </div>
                             </div>
@@ -163,10 +161,13 @@ include "inc/header.php";
                                         <img src="images/client/testimonial-2.jpg" alt="">
                                     </div>
                                     <div class="testimonial_details">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quia iure obcaecati alias error magnam dolorum cumque qui, deserunt nobis!</p>
-                                        <h4>Sophia Olivia</h4>
-                                        <h5>CEO</h5>
-                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                        <p>
+                                            I absolutely can not stop smiling, I can't believe I just watched one of my dreams come to life because of you guys.
+                                            I wish I could describe this feeling. It building looks incredible and the secuirty systems has given me some peace of mind.
+                                        </p>
+                                        <h4>Hon. John Abdulai Jinapor</h4>
+                                        <h5>Electricity Company of Ghana</h5>
+                                        <!-- <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
                                     </div>
                                 </div>
                             </div>
@@ -176,10 +177,15 @@ include "inc/header.php";
                                         <img src="images/client/testimonial-3.jpg" alt="">
                                     </div>
                                     <div class="testimonial_details">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quia iure obcaecati alias error magnam dolorum cumque qui, deserunt nobis!</p>
-                                        <h4>Daniel E.</h4>
-                                        <h5>CEO</h5>
-                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                        <p>
+                                            We save our toughest projects for Yehans International . 
+                                            They understand our business and are pros at utilizing their technical creativity to consistently 
+                                            deliver effective and produce great finish works for all our projects. They literally translate our ideas into reality. 
+                                            There are a lot of companies who say they can, Yehans International  is one of a very few who really can.
+                                        </p>
+                                        <h4>Mrs. Abiola Bawuah</h4>
+                                        <h5>Regional CEO for West Africa, UBA</h5>
+                                        <!-- <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
                                     </div>
                                 </div>
                             </div>
@@ -189,10 +195,33 @@ include "inc/header.php";
                                         <img src="images/client/testimonial-4.jpg" alt="">
                                     </div>
                                     <div class="testimonial_details">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quia iure obcaecati alias error magnam dolorum cumque qui, deserunt nobis!</p>
-                                        <h4>Jennifer R.</h4>
-                                        <h5>CEO</h5>
-                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                        <p>
+                                            I would like to thank Mr. Yeboah and the team for a great work done on our windows and doors installations. 
+                                            I came to them with a very minimal concept of what I wanted and they designed and installed the best quality Windows and 
+                                            doors within my budget..They had the forsight to see possible issues I could have in the future and came up with solutions
+                                            that will save me a redesign in the future. This is a TOP NOTCH COMPANY. I would always recommend them to my business partners
+                                        </p>
+                                        <h4>Mr. Ekuorba Gyasi.</h4>
+                                        <!-- <h5>CEO</h5>
+                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="testimonial_content text-center">
+                                    <div class="testimonial_image">
+                                        <img src="images/client/testimonial-5.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial_details">
+                                        <p>
+                                            Mr. Ahadzie and his team  was instrumental in helping me to design and source a sophisticated technological device to monitor our buildings. 
+                                            It was a component that I had conceptualized for many years; however, I was not confident in my ability to make it a reality.
+                                            By outsourcing the complex engineering tasks associated with this one component, I was able to keep my focus on the big picture. 
+                                            We are now looking forward to a broad spectrum product launch. This software protects all our buildings from Fire and all emergency Alerts .
+                                        </p>
+                                        <h4>Mrs. Angela Kyerematen-Jimoh.</h4>
+                                        <h5>CEO of IBM Ghana</h5>
+                                        <!-- <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
                                     </div>
                                 </div>
                             </div>
@@ -206,6 +235,10 @@ include "inc/header.php";
     <section class="satisfied_client">
         <div class="satisfied_rgba">
             <div class="container">
+                <div class="testimonial_title">
+                    <h2 style="color: #fff;padding-top: 50px;">OUR SATISFIED CLIENTS</h2>
+                </div>
+
                 <div class="row">
                     <div class="all_client">
                         <div class="col-md-3 col-sm-6">
