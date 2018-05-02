@@ -10,7 +10,7 @@ include "inc/header.php";
             <div class="header_content">
                 <div class="header_contetn_info text-center">
                     <h1>Enter Your email to collect $1000.00 FREE Certificate of credit towards your next building project.</h1>
-                    <form action="" method="post">
+                    <form action="page2.php" method="post">
                         <input type="email" name="url" placeholder="Your Email Address" required>
                         <button type="submit">START NOW</button>
                     </form>
@@ -27,7 +27,7 @@ include "inc/header.php";
                     <h2>Are you Ready for your Next Project?</h2>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <a href="#" target="_blank">Contact Us now</a>
+                    <a href="page2.php">Contact Us now</a>
                 </div>
             </div>          
         </div>
@@ -117,7 +117,7 @@ include "inc/header.php";
                             </div>
                             <div class="mail_content_body text-white">
                                 <p>Enter Your email to collect $1000.00 FREE Certificate of credit towards your next building project. Depending on the scope of your project, you can receive up to 20% additional discount for your first installation project with Yehans International. Restrictions may apply. </p>
-                                <a href="">Get Started</a>
+                                <a href="page2.php">Get Started</a>
                             </div>
                         </div>
                     </div>
