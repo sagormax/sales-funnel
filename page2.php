@@ -25,8 +25,8 @@ include "inc/header.php";
         <div class="container margin_60 form_container">
             <div class="row">
                 <div class="col-md-9 col-sm-12 ">
-                    <form id="quotation" action="" method="POST">
-                        <div class="form_title">
+                    <form id="quotation" action="page3.php" method="POST">
+                        <div class="form_title install_form">
                             <h3><strong><i class="fa fa-building"></i></strong>Installations</h3>
                             <p>Select which type of service do you want </p>
                         </div>
@@ -513,19 +513,19 @@ include "inc/header.php";
                             <div class="form-group ">
                                 <label>What is your budget for this project ?</label>
                                 <label class="radio_content" >100$-300$
-                                  <input type="radio" name="radio" required>
+                                  <input type="radio" name="p_budge" required>
                                   <span class="checkmark"></span>
                                 </label>
                                 <label class="radio_content ">300$-500$
-                                  <input type="radio" name="radio">
+                                  <input type="radio" name="p_budge">
                                   <span class="checkmark "></span>
                                 </label>
                                 <label class="radio_content">500$-1000$
-                                  <input type="radio" name="radio">
+                                  <input type="radio" name="p_budge">
                                   <span class="checkmark"></span>
                                 </label>
                                 <label class="radio_content radio_mb">More then 1000$
-                                  <input type="radio" name="radio">
+                                  <input type="radio" name="p_budge">
                                   <span class="checkmark"></span>
                                 </label>
                             </div>
@@ -534,19 +534,19 @@ include "inc/header.php";
                             <div class="form-group ">
                                 <label>Do you have any quotations made from other companies ?</label>
                                 <label class="radio_content">Yes
-                                  <input type="radio" name="radio2" required>
+                                  <input type="radio" value="1" name="have_quote_others_company" required>
                                   <span class="checkmark"></span>
                                 </label>
                                 <label class="radio_content radio_mb">No
-                                  <input type="radio" name="radio2">
-                                  <span class="checkmark "></span>
+                                  <input type="radio" value="0" name="have_quote_others_company">
+                                  <span class="checkmark"></span>
                                 </label>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
                                 <label>YOU NEED A SPECIFIC PROJECT DONE? TELL US ABOUT IT</label>
-                                <textarea class="form-control " name="about_project " rows="5 "></textarea>
+                                <textarea class="form-control " name="about_project" rows="5 "></textarea>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12">

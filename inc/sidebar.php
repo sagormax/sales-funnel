@@ -10,7 +10,7 @@
                         </li>
                         <li><i class="fa fa-phone "></i>International: +233 302 51 2525
                         </li>
-                        <li><i class="fa fa-envelope-open "></i>Email: info@yehansinternational.com
+                        <li><i class="fa fa-envelope-open "></i>info@yehansinternational.com
                         </li>
                     </ul>
                 </div>

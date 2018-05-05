@@ -826,8 +826,12 @@ img.img-responsive.border{
     line-height:14px
 }
 .form_strong strong{
-    padding-left: 12px !important;
+    /*padding-left: 12px !important;*/
 }
+.form_title h3 i{
+    margin-top: 10px;
+}
+.install_form{}
 .btn_1{
     background: #FFBB02;
     padding: 10px 25px;
@@ -1032,7 +1036,7 @@ input#website{
     background: white;
 }
 .radio_mb{
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 .right_sidebar{}
 .sidebar_images{}

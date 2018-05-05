@@ -7,6 +7,19 @@ if( !isset($_SESSION['new_sess']) ){
     die();
 }
 
+if( isset($_POST['p_budge']) ){
+    App\Session::sess_create([
+        'p_budge'                   => $_POST['p_budge'],
+        'have_quote_others_company' => $_POST['have_quote_others_company'],
+        'about_project'             => $_POST['about_project']
+    ]);
+}
+else{
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
+
 include "inc/header.php";
 ?>
 <section id="sub_header">
@@ -26,7 +39,7 @@ include "inc/header.php";
     <div class="row">
 
         <div class="col-md-9 col-sm-12">
-            <form id="quotation" action="" method="POST">
+            <form id="quotation" action="certificate.php" method="POST">
                 <div class="form_title">
                     <h3><strong><i class="fa fa-user"></i></strong>Personal info</h3>
                 </div>
@@ -42,13 +55,13 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>First name</label>
-                                <input type="text" class="form-control required" id="f_name" name="f_name" placeholder="Enter your First Name">
+                                <input type="text" class="form-control required" id="f_name" name="f_name" placeholder="Enter your First Name" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Last name</label>
-                                <input type="text" class="form-control required" id="l_name" name="l_name" placeholder="Enter your Last Name">
+                                <input type="text" class="form-control required" id="l_name" name="l_name" placeholder="Enter your Last Name" required>
                             </div>
                         </div>
                     </div>
@@ -62,7 +75,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Phone Number</label>
-                                <input type="text" class="form-control required" id="phone_no" name="phone_no" placeholder="The best number to contact you">
+                                <input type="text" class="form-control required" id="phone_no" name="phone_no" placeholder="The best number to contact you" required>
                             </div>
                         </div>
                     </div>
@@ -76,7 +89,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control required" id="email_address" name="email_address" placeholder="Enter your email number">
+                                <input type="email" class="form-control required" id="email_address" name="email_address" placeholder="Enter your email number" required>
                             </div>
                         </div>
                     </div>
@@ -84,14 +97,14 @@ include "inc/header.php";
                 <!--End step -->
 
                 <div class="form_title">
-                    <h3><strong><i class="fa fa-pencil"></i></strong>Pick Up info</h3>
+                    <h3><strong><i class="fa fa-pencil"></i></strong>Contact Info</h3>
                 </div>
                 <div class="step">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
                                 <label>Address</label>
-                                <input type="text" class="form-control required" name="address" id="address" placeholder="House Number & Street Name">
+                                <input type="text" class="form-control required" name="address" id="address" placeholder="House Number & Street Name" required>
                             </div>
                         </div>
                         
@@ -100,19 +113,19 @@ include "inc/header.php";
                     	<div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>AREA</label>
-                                <input type="text" id="area" name="area" class="form-control" placeholder="what is your Area/community name">
+                                <input type="text" id="area" name="area" class="form-control" placeholder="what is your Area/community name" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>City</label>
-                                <input type="text" id="city" name="city" class="form-control required" placeholder="Enter City name">
+                                <input type="text" id="city" name="city" class="form-control required" placeholder="Enter City name" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Country</label>
-                                <input type="text" id="country" name="country" class="form-control required" placeholder="Enter Country Name">
+                                <input type="text" id="country" name="country" class="form-control required" placeholder="Enter Country Name" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
