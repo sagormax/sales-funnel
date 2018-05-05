@@ -14,6 +14,7 @@
           e.preventDefault();
         $('body').scrollTo(target, 900, {offset: -60, 'axis':'y'});        
       });
+
    
     /*======================================/
               slick slider js
@@ -98,6 +99,8 @@
         }
       ]
       });
+
+
   
   });
 }(jQuery));

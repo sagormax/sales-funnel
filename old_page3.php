@@ -1,22 +1,27 @@
-<!doctype html>
-<html class="no-js" lang="">
+<?php
+require "init.php";
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sales Funnel</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
+if( !isset($_SESSION['new_sess']) ){
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
 
-<body>
+if( isset($_POST['p_budge']) ){
+    App\Session::sess_create([
+        'p_budge'                   => $_POST['p_budge'],
+        'have_quote_others_company' => $_POST['have_quote_others_company'],
+        'about_project'             => $_POST['about_project']
+    ]);
+}
+else{
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
+
+include "inc/header.php";
+?>
     <section class="infor_form_header">
         <div class="container">
             <div class="info_form_title">
@@ -30,7 +35,7 @@
             <div class="main_info_form">
                 <div class="info_form_body">
                     <p>Please complete this Form in order to receive your $1000.00 Credit Certificate towards your project. </p>
-                    <form action="" method="post">
+                    <form action="certificate.php" method="post">
                         <div class="row">
                             <div class="form-group">
                                 <label for="f_name" class="col-md-2 control-label">First Name
@@ -97,14 +102,14 @@
                                 <label for="gps_cordinates" class="col-md-2 control-label">GPS CORDINATES 
                                 </label>
                                 <div class="col-md-10">
-                                    <input type="text" class="form-control" name="gps_cordinates" id="gps_cordinates" placeholder="what is your Area/community name" required>
+                                    <input type="text" class="form-control" name="gps_cordinates" id="gps_cordinates" placeholder="what is your Area/community name">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="comments" class="col-md-2 control-label">Comments 
                                 </label>
                                 <div class="col-md-10">
-                                    <textarea class="form-control" rows="4" placeholder="Let us know anything about your project if you have any or any instructions"></textarea>
+                                    <textarea class="form-control" name="comments" rows="4" placeholder="Let us know anything about your project if you have any or any instructions"></textarea>
                                 </div>
                             </div>
                             <div class="form-group label_text">
@@ -120,10 +125,6 @@
             </div>
         </div>
     </section>
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-</body>
-
-</html>
+<?php
+    include "inc/footer.php";
+?>
