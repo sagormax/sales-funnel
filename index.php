@@ -5,7 +5,7 @@ App\Session::sess_destroy();
 
 include "inc/header.php";
 ?>
-    <header class="header_section">
+    <header class="header_section" id="header">
         <div class="container">
             <div class="header_content">
                 <div class="header_contetn_info text-center">
@@ -27,7 +27,7 @@ include "inc/header.php";
                     <h2>Are you Ready for your Next Project?</h2>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <a href="page2.php">Contact Us now</a>
+                    <a class="scrollto" href="#contact">Contact Us now</a>
                 </div>
             </div>          
         </div>
@@ -117,7 +117,7 @@ include "inc/header.php";
                             </div>
                             <div class="mail_content_body text-white">
                                 <p>Enter Your email to collect $1000.00 FREE Certificate of credit towards your next building project. Depending on the scope of your project, you can receive up to 20% additional discount for your first installation project with Yehans International. Restrictions may apply. </p>
-                                <a href="page2.php">Get Started</a>
+                                <a class="scrollto" href="#header">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@ include "inc/header.php";
                                         </p>
                                         <h4>Hon. John Abdulai Jinapor</h4>
                                         <h5>Electricity Company of Ghana</h5>
-                                        <!-- <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@ include "inc/header.php";
                                         </p>
                                         <h4>Mrs. Abiola Bawuah</h4>
                                         <h5>Regional CEO for West Africa, UBA</h5>
-                                        <!-- <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -202,8 +202,6 @@ include "inc/header.php";
                                             that will save me a redesign in the future. This is a TOP NOTCH COMPANY. I would always recommend them to my business partners
                                         </p>
                                         <h4>Mr. Ekuorba Gyasi.</h4>
-                                        <!-- <h5>CEO</h5>
-                                        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
                                     </div>
                                 </div>
                             </div>
@@ -221,7 +219,7 @@ include "inc/header.php";
                                         </p>
                                         <h4>Mrs. Angela Kyerematen-Jimoh.</h4>
                                         <h5>CEO of IBM Ghana</h5>
-                                        <!-- <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -316,7 +314,7 @@ include "inc/header.php";
         </div>
     </section> 
 
-    <footer class="footer_section">
+    <footer class="footer_section" id="contact">
       <div class="container">
         <div class="main_footer">
             <div class="row">

@@ -145,6 +145,21 @@
 	    line-height: 21px;
 	    font-weight: 500;
 	}
+	#sub_header h1 {
+	    font-size: 20px;
+	}
+	.step {
+	    padding: 5px 0 20px 31px;
+	}
+	.strong_text strong {
+	    font-size: 15px;
+	}
+	.pretty .state label {
+	    font-size: 13px;
+	}
+	.box_style_2 {
+	    margin-top: 30px;
+	}
 }
 @media screen and (max-width: 480px) {
 	.header_contetn_info {
@@ -194,7 +209,84 @@
 	.info_form_body {
 	    padding: 30px 30px;
 	}
+	#quotation {
+	    margin: 30px 0px 0px 0px;
+	}
+	.form_title h3 strong {
+	    width: 30px;
+	    height: 30px;
+	    font-size: 15px;
+	    line-height: 30px;
+	    padding-left: 10px;
+	}
+	.form_title h3 {
+	    font-size: 16px;
+	}
+	.step {
+	    padding: 5px 0 20px 15px;
+	    margin: 0 0 10px 13px;
+	}
+	.form_title {
+	    padding-left: 40px;
+	    padding-top: 8px;
+	}
+	.install_form{
+		padding-top: 2px;
+	}
+	#sub_header h1 {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+	.main_title {
+	    padding: 15px 15px 0;
+	    margin-top: 15px;
+	}
+	.budget_label label {
+	    font-size: 12px;
+	}
+	.strong_text strong {
+	    font-size: 13px;
+	}
+	.form_strong strong {
+	    /*padding-left: 7px !important;*/
+	}
+	.btn_1 {
+	    font-size: 14px;
+	}
 }
+@media screen and (max-width: 425px) {
+	.main_title {
+	    padding: 5px 15px 0;
+	    margin-top: -15px;
+	}
+	.form_title h3 i {
+	    margin-top: 7px;
+	    font-size: 13px;
+	}
+	.main_title {
+	    /*margin-top: 24px;*/
+	    padding: 9px 15px 0;
+	}
+	.step {
+	    padding: 5px 0 20px 0px;
+	    margin: 0 0 10px 0px;
+	    border-left: 0px;
+	}
+
+	.pretty.p-svg .state .svg {
+	    font-size: 12px;
+	}
+}
+@media screen and (max-width: 412px) {
+	#sub_header h1 {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+	.main_title {
+	    margin-top: 0px;
+	}
+}
+
 @media screen and (max-width: 360px) {
 	.header_content h1 {
 	    font-size: 25px;
@@ -244,6 +336,15 @@
 	    padding: 10px 13px;
 	    font-size: 16px;
 	}
+	#sub_header h1 {
+	    font-size: 10px;
+	}
+	#sub_header .main_title p {
+	    font-size: 9px;
+	}
+	.main_title {
+	    margin-top: 18px;
+	}
 }
 @media screen and (max-width: 320px) {
 	.header_content input {
@@ -290,5 +391,14 @@
 	.info_form_button button {
 	    padding: 10px 11px;
 	    font-size: 14px;
+	}
+	.pretty .state label {
+	    font-size: 12px;
+	}
+	#sub_header h1 {
+	    font-size: 9px;
+	}
+	.pretty {
+	    line-height: 11px;
 	}
 }
