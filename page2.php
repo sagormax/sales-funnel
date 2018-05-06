@@ -42,7 +42,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Aluminum_glazinng" value="Aluminum Glazing & Gladding Works">
+                                            <input type="checkbox" name="installations[]" value="Aluminum Glazing & Gladding Works">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -55,7 +55,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Physical_barriers" value="Physical Barriers">
+                                            <input type="checkbox" name="installations[]" value="Physical Barriers">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -68,7 +68,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Collapsible_burglar" value="Collapsible Burglar proof Windows and Doors">
+                                            <input type="checkbox" name="installations[]" value="Collapsible Burglar proof Windows and Doors">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -81,7 +81,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Security_doors" value="Security Doors">
+                                            <input type="checkbox" name="installations[]" value="Security Doors">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -94,7 +94,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="automated_garage" value="Automated Garage Doors">
+                                            <input type="checkbox" name="installations[]" value="Automated Garage Doors">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -107,7 +107,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Metal_fabrication" value="Metal Fabrication Works">
+                                            <input type="checkbox" name="installations[]" value="Metal Fabrication Works">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -120,7 +120,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Balustrades" value="Balustrades">
+                                            <input type="checkbox" name="installations[]" value="Balustrades">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -133,7 +133,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Regular_front" value="Regular Front Gates">
+                                            <input type="checkbox" name="installations[]" value="Regular Front Gates">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -146,7 +146,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Roller_shutters" value="Roller Shutters">
+                                            <input type="checkbox" name="installations[]" value="Roller Shutters">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -159,7 +159,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Building_structures" value="Building Structures">
+                                            <input type="checkbox" name="installations[]" value="Building Structures">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -172,7 +172,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="read_block" value="Road Block Barricades">
+                                            <input type="checkbox" name="installations[]" value="Road Block Barricades">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -185,7 +185,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="acoustic_ceilings" value="Acoustic Ceilings">
+                                            <input type="checkbox" name="installations[]" value="Acoustic Ceilings">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -198,7 +198,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Alucubond_walls" value="Alucubond Walls">
+                                            <input type="checkbox" name="installations[]" value="Alucubond Walls">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -211,7 +211,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="toilet_partioners" value="Toilet Partioners">
+                                            <input type="checkbox" name="installations[]" value="Toilet Partioners">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -224,7 +224,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Flooring" value="Flooring">
+                                            <input type="checkbox" name="installations[]" value="Flooring">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -237,7 +237,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Tiling" value="Tiling">
+                                            <input type="checkbox" name="installations[]" value="Tiling">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -250,7 +250,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Painting" value="Painting">
+                                            <input type="checkbox" name="installations[]" value="Painting">
                                             <div class="state p-success">
                                                 <svg class="svg svg-icon" viewBox="0 0 20 20">
                                                     <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z" style="stroke: white;fill:white;"></path>
@@ -263,7 +263,7 @@ include "inc/header.php";
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <div class="pretty p-svg p-curve">
-                                            <input type="checkbox" name="Commercial_constructions value=" Commercial Construction ">
+                                            <input type="checkbox" name="installations[] value=" Commercial Construction ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -276,7 +276,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Governmental_projects " value="Governmental Projects ">
+                                    <input type="checkbox" name="installations[] " value="Governmental Projects ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -305,7 +305,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Security_cameras " value="Security Cameras for Residential Buildings ">
+                                    <input type="checkbox" name="surveillance[]" value="Security Cameras for Residential Buildings ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -318,7 +318,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Security_cameras_for_commercial " value="Security Cameras for Commercial Buildings ">
+                                    <input type="checkbox" name="surveillance[]" value="Security Cameras for Commercial Buildings ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -331,7 +331,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Building_integration " value="Building Integration Management Security Systems ">
+                                    <input type="checkbox" name="surveillance[]" value="Building Integration Management Security Systems ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -344,7 +344,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Building_management " value="Building Management Solutions ">
+                                    <input type="checkbox" name="surveillance[]" value="Building Management Solutions ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -357,7 +357,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="fire_alarms " value="Fire Alarms ">
+                                    <input type="checkbox" name="surveillance[]" value="Fire Alarms ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -370,7 +370,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="smoke_detectors " value="Smoke Detectors ">
+                                    <input type="checkbox" name="surveillance[]" value="Smoke Detectors ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -383,7 +383,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Access_control " value="Access Control Systems ">
+                                    <input type="checkbox" name="surveillance[]" value="Access Control Systems ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -396,7 +396,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Intrusion_detection " value="Intrusion detection Solutions ">
+                                    <input type="checkbox" name="surveillance[]" value="Intrusion detection Solutions ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -409,7 +409,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Video_surveillance " value="Video Surveillance (CCTV) ">
+                                    <input type="checkbox" name="surveillance[]" value="Video Surveillance (CCTV) ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -422,7 +422,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="hidden_cameras " value="Hidden Cameras and Alarm Systems ">
+                                    <input type="checkbox" name="surveillance[]" value="Hidden Cameras and Alarm Systems ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -452,7 +452,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve">
-                                    <input type="checkbox" name="Residential_energy" value="Residential Energy Auditing service">
+                                    <input type="checkbox" name="auditting[]" value="Residential Energy Auditing service">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon" viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -465,7 +465,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6 ">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Commercial_energy" value="Commercial Energy Auditing Service">
+                                    <input type="checkbox" name="auditting[]" value="Commercial Energy Auditing Service">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -478,7 +478,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <div class="pretty p-svg p-curve">
-                                    <input type="checkbox" name="Airtron_device " value="Airtron Device and Installation Service ">
+                                    <input type="checkbox" name="auditting[] " value="Airtron Device and Installation Service ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -491,7 +491,7 @@ include "inc/header.php";
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group ">
                                 <div class="pretty p-svg p-curve ">
-                                    <input type="checkbox" name="Solar_system " value="Solar System Installation Service ">
+                                    <input type="checkbox" name="auditting[] " value="Solar System Installation Service ">
                                     <div class="state p-success ">
                                         <svg class="svg svg-icon " viewBox="0 0 20 20 ">
                                             <path d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z " style="stroke: white;fill:white; "></path>
@@ -512,20 +512,20 @@ include "inc/header.php";
                         <div class="col-md-12 col-sm-12 ">
                             <div class="form-group ">
                                 <label>What is your budget for this project ?</label>
-                                <label class="radio_content" >100$-300$
-                                  <input type="radio" name="p_budge" required>
+                                <label class="radio_content">$100-$1,000
+                                  <input type="radio" name="p_budge" value="$100-$1,000" required>
                                   <span class="checkmark"></span>
                                 </label>
-                                <label class="radio_content ">300$-500$
-                                  <input type="radio" name="p_budge">
+                                <label class="radio_content ">$1,000-$5,000
+                                  <input type="radio" name="p_budge" value="$1,000-$5,000">
                                   <span class="checkmark "></span>
                                 </label>
-                                <label class="radio_content">500$-1000$
-                                  <input type="radio" name="p_budge">
+                                <label class="radio_content">$5,000-$10,000
+                                  <input type="radio" name="p_budge" value="$5,000-$10,000">
                                   <span class="checkmark"></span>
                                 </label>
-                                <label class="radio_content radio_mb">More then 1000$
-                                  <input type="radio" name="p_budge">
+                                <label class="radio_content radio_mb">Over $10,000
+                                  <input type="radio" name="p_budge" value="Over $10,000">
                                   <span class="checkmark"></span>
                                 </label>
                             </div>
