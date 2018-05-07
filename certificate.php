@@ -1,4 +1,25 @@
+<?php
+require "init.php";
 
+
+if( !isset($_SESSION['new_sess']) ){
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
+
+if( isset($_POST['f_name']) ){
+    App\Session::sess_create($_POST);
+    $_SESSION['_can'] = time().date('/m/Y');
+}
+else{
+    header("Location:index.php?invalid=1");
+    App\Session::sess_destroy();
+    die();
+}
+
+include "inc/header.php";
+?>
     <section class="certificate_section">
         <div class="container">
             <div class="main_certificate">
@@ -14,7 +35,7 @@
                     <div class="certificate_title">
                         <h1>CERTIFICATE OF CREDIT</h1>
                         <h3>This is to certify that</h3>
-                        <h2>Dolar Sharma</h2>
+                        <h2><?php echo strtoupper(\App\Session::sess_get_fullname()); ?></h2>
                         <div class="certificate_image">
                             <img src="images/certi_logo.png" alt="">
                         </div>
@@ -27,7 +48,7 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="certificate_footer_content">
                                     <h2>Issue Date</h2>
-                                    <p>05-02-2018</p>
+                                    <p><?php echo date('d-m-Y'); ?></p>
                                 </div>
                                 <div class="certificate_footer_image">
                                     <img src="images/logo.jpg">
@@ -37,7 +58,7 @@
                                 <div class="footer_content certificate_footer_address">
                                     <p>Certification Number</p>
                                     <ul>
-                                        <li><strong><u>FB 0975890087/04/2018</u></strong></li>
+                                        <li><strong><u><?php echo $_SESSION['_can']; ?></u></strong></li>
                                     </ul>
                                     <p>Yehans International</p>
                                     <ul>
@@ -65,3 +86,6 @@
             </div>
         </div>
     </section>
+<?php
+    include "inc/footer.php";
+?>
