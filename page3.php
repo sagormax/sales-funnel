@@ -143,6 +143,12 @@ include "inc/header.php";
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label>Do you have any documents for us to review ? </label>
+                                <input type="file" name="">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
                         	<div class="form-group message_text">
                         		<label for="" class="control-label"><strong>Please contact Yehans International If you have any questions at +233 302 51 2525</strong>
                                 </label>

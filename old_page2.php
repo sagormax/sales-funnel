@@ -112,9 +112,7 @@ include "inc/header.php";
                                 <li><input type="checkbox" name="">Airtron Device and Installation Service </li>
                                 <li><input type="checkbox" name="">Solar System Installation Service</li>
                             </ul> 
-                            <!-- <div class="common_button">
-                                <a class="scrollto" href="#common_project_section">Click Here</a>
-                            </div>  -->                               
+                                                         
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">

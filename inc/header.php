@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    <link rel="stylesheet" href="css/pretty-checkbox.min.css">
     <link rel="stylesheet" href="css/style.css">    
     <link rel="stylesheet" href="css/responsive.css">
 </head>
