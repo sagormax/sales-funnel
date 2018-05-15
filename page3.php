@@ -8,11 +8,8 @@ if( !isset($_SESSION['new_sess']) ){
 }
 
 if( isset($_POST['p_budge']) ){
-    App\Session::sess_create([
-        'p_budge'                   => $_POST['p_budge'],
-        'have_quote_others_company' => $_POST['have_quote_others_company'],
-        'about_project'             => $_POST['about_project']
-    ]);
+    // echo "<pre>";var_dump($_POST);exit;
+    App\Session::sess_create($_POST);
 }
 else{
     header("Location:index.php?invalid=1");

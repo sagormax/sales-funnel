@@ -18,6 +18,8 @@ else{
     die();
 }
 
+include "inc/mail.config.php";
+
 include "inc/header.php";
 ?>
     <section class="certificate_section">
