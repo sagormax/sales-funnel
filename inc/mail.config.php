@@ -17,13 +17,16 @@ try {
 	$mail->Username   = "yehansleads@gmail.com";  // GMAIL username
 	$mail->Password   = "demolove123";            // GMAIL password
 
-	$mail->SetFrom('yehansleads@gmail.com', 'sagor');
-	$mail->AddReplyTo("yehansleads@gmail.com","sagor");
+	$mail->SetFrom('yehansleads@gmail.com', 'Yehans International');
+	$mail->AddReplyTo("yehansleads@gmail.com","Yehans International");
 
-	$mail->addAddress('sagor.helpdesk@gmail.com', 'rashedul');
+	// sales@yehansinternational.com, info@yehansi ternational.com and yahansinternationalcompany@gmail.com
+	$mail->addAddress('sales@yehansinternational.com', 'Yehans International Sales');
+	$mail->addCC('info@yehansinternational.com', 'Yehans International');
+	$mail->addCC('yahansinternationalcompany@gmail.com', 'Yehans International');
 
 	$mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Here is the subject';
+    $mail->Subject = 'New response of salse funnel';
 
     ob_start();
         include "email.php";

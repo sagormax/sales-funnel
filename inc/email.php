@@ -108,7 +108,7 @@
                                    style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 20px; margin: 0;">
                                 <tr>
                                     <td style="vertical-align: top; padding-top:30px;" align="center"><a href="javascript:void(0)" target="_blank">
-                                        <img src="images/sitelogo.jpg" alt="logo" ><br/></a> 
+                                        <img src="http://www.yehansinternational.com/wp-content/uploads/2017/07/logo_long_new.png" alt="logo" ><br/></a> 
                                     </td>
                                 </tr>
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
@@ -150,7 +150,7 @@
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                             <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                valign="top">Company Name
+                                                                valign="top">Company
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
@@ -159,7 +159,7 @@
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                             <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                valign="top">Phone Number
+                                                                valign="top">Phone
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
@@ -177,7 +177,7 @@
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                             <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                valign="top">Email Address
+                                                                valign="top">Email
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
@@ -222,7 +222,7 @@
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                             <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                valign="top">GPS CORDINATES
+                                                                valign="top">GPS
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
@@ -263,7 +263,16 @@
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                align="right" valign="top">ssg
+                                                                align="right" valign="top">
+                                                                <?php
+                                                                    if(isset($_SESSION['surveillance'])){
+                                                                        $data = '';
+                                                                        foreach($_SESSION['surveillance'] as $dt){
+                                                                            $data .= $dt.", ";
+                                                                        }
+                                                                        echo rtrim($data, ', ');
+                                                                    }
+                                                                ?>
                                                             </td>
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
@@ -272,7 +281,16 @@
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                align="right" valign="top">$ 7.88
+                                                                align="right" valign="top">
+                                                                <?php
+                                                                    if(isset($_SESSION['auditting'])){
+                                                                        $data = '';
+                                                                        foreach($_SESSION['auditting'] as $dt){
+                                                                            $data .= $dt.", ";
+                                                                        }
+                                                                        echo rtrim($data, ', ');
+                                                                    }
+                                                                ?>
                                                             </td>
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
@@ -281,7 +299,7 @@
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                align="right" valign="top">$ 7.88
+                                                                align="right" valign="top"><?php echo @$_SESSION['p_budge']; ?>
                                                             </td>
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
@@ -290,7 +308,7 @@
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                align="right" valign="top">$ 7.88
+                                                                align="right" valign="top"><?php echo @$_SESSION['have_quote_others_company']; ?>
                                                             </td>
                                                         </tr>
                                                         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
@@ -299,7 +317,7 @@
                                                             </td>
                                                             <td class="alignright"
                                                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
-                                                                align="right" valign="top">$ 7.88
+                                                                align="right" valign="top"><?php echo @$_SESSION['about_project']; ?>
                                                             </td>
                                                         </tr>
 
@@ -331,4 +349,4 @@
     </tr>
 </table>
 </body>
-</html
+</html>
