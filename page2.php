@@ -534,11 +534,11 @@ include "inc/header.php";
                             <div class="form-group ">
                                 <label>Do you have any quotations made from other companies ?</label>
                                 <label class="radio_content">Yes
-                                  <input type="radio" value="1" name="have_quote_others_company" required>
+                                  <input type="radio" value="Yes" name="have_quote_others_company" required>
                                   <span class="checkmark"></span>
                                 </label>
                                 <label class="radio_content radio_mb">No
-                                  <input type="radio" value="0" name="have_quote_others_company">
+                                  <input type="radio" value="No" name="have_quote_others_company">
                                   <span class="checkmark"></span>
                                 </label>
                             </div>

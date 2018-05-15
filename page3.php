@@ -8,11 +8,8 @@ if( !isset($_SESSION['new_sess']) ){
 }
 
 if( isset($_POST['p_budge']) ){
-    App\Session::sess_create([
-        'p_budge'                   => $_POST['p_budge'],
-        'have_quote_others_company' => $_POST['have_quote_others_company'],
-        'about_project'             => $_POST['about_project']
-    ]);
+    // echo "<pre>";var_dump($_POST);exit;
+    App\Session::sess_create($_POST);
 }
 else{
     header("Location:index.php?invalid=1");
@@ -142,12 +139,12 @@ include "inc/header.php";
                                 <textarea class="form-control" name="comments" rows="5" placeholder="Let us know anything about your project if you have any or any instructions"></textarea>
                             </div>
                         </div>
-                        <div class="col-md-12 col-sm-12">
+                        <!-- <div class="col-md-12 col-sm-12">
                             <div class="form-group">
                                 <label>Do you have any documents for us to review ? </label>
                                 <input type="file" name="">
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-12 col-sm-12">
                         	<div class="form-group message_text">
                         		<label for="" class="control-label"><strong>Please contact Yehans International If you have any questions at +233 302 51 2525</strong>
